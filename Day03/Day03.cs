@@ -1,5 +1,3 @@
-using System.Dynamic;
-using System.Reflection.Metadata;
 using AOC2022.Common;
 
 namespace AOC2022.Day03;
@@ -53,7 +51,7 @@ public class Day03(bool useTestInput = false) : IPuzzle
                 }
             }
         }
-        
+
         return totalPriorities;
     }
 }

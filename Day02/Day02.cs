@@ -1,4 +1,3 @@
-using System.Linq.Expressions;
 using AOC2022.Common;
 
 namespace AOC2022.Day02;
