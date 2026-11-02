@@ -9,7 +9,7 @@ public class Day03(bool useTestInput = false) : IPuzzle
     private int[][][] rucksacks = [.. ((int[][]) [.. InputReader.ReadLines(3, useTestInput).Select(line => (int[]) [.. line.ToCharArray().Select(c => c - 97 < 0 ? c - 65 + 26 + 1 : c - 97 + 1)])]).Select(rucksack => (int[][]) [rucksack[..(rucksack.Length/2)], rucksack[(rucksack.Length/2)..]])];
 
 
-    public int Part1()
+    public object Part1()
     {
         int totalPriorities = 0;
 
@@ -31,7 +31,7 @@ public class Day03(bool useTestInput = false) : IPuzzle
         return totalPriorities;
     }
 
-    public int Part2()
+    public object Part2()
     {
         int totalPriorities = 0;
 

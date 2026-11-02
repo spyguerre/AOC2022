@@ -29,14 +29,14 @@ public class Day01(bool useTestInput = false) : IPuzzle
         summedCalories = [.. summedCalList];
     }
 
-    public int Part1()
+    public object Part1()
     {
         CalcSummedCalories();
 
         return summedCalories.Max();
     }
 
-    public int Part2()
+    public object Part2()
     {
         CalcSummedCalories();
 

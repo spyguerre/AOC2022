@@ -25,7 +25,7 @@ public class Day04 : IPuzzle
         pairs = [.. pairsList];
     }
 
-    public int Part1()
+    public object Part1()
     {
         int count = 0;
 
@@ -43,7 +43,7 @@ public class Day04 : IPuzzle
         return count;
     }
 
-    public int Part2()
+    public object Part2()
     {
         int count = 0;
 

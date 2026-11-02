@@ -30,7 +30,7 @@ public class Day02(bool useTestInput = false) : IPuzzle
         return shapeScore + outcomeScore;
     }
 
-    public int Part1()
+    public object Part1()
     {
         int totalScore = 0;
 
@@ -49,7 +49,7 @@ public class Day02(bool useTestInput = false) : IPuzzle
         return totalScore;
     }
 
-    public int Part2()
+    public object Part2()
     {
         int totalScore = 0;
 
