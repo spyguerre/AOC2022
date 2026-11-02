@@ -12,4 +12,9 @@ public class InputReader
     {
         return [.. ReadLines(day, useTestInput).Select(line => int.TryParse(line, out int lineInt) ? (int?)lineInt : null)];
     }
+
+    public static char[][] ReadChars(int day, bool useTestInput = false)
+    {
+        return [.. ReadLines(day, useTestInput).Select(line => line.ToCharArray())];
+    }
 }
